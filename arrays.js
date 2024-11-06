@@ -91,9 +91,9 @@ function secondHalfOfArrayIfItIsEven(fruits) {
  * youGottaCalmDown("Hellooooo") -> "Hellooooo"
  *
  * Hint:
- * - Use string method .indexOf()
+ * - Use string method .indexOf()//
  * - Use string method .slice()
- */
+ *///
 function youGottaCalmDown(shout) {
    // finding the index of the first ! mark
    const exclamationIndex = shout.indexOf('!');
@@ -104,7 +104,7 @@ function youGottaCalmDown(shout) {
      return shout.slice(0, exclamationIndex) + '!';
    }
    
-   // return the shout as it is if there are no ! marks
+   // return the shout as it is if there are no ! marks //
    return shout;
 }
 
